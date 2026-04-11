@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply m-0 bg-gray-100 font-sans leading-normal text-gray-900 antialiased;
+}
